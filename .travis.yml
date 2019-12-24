@@ -16,7 +16,7 @@ dist: trusty
 matrix:
   include:
     - php: 5.3
-      dist: precise
+      dist: xenial
   allow_failures:
     - php: hhvm
 
